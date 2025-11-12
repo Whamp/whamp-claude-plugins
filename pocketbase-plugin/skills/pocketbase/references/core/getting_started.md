@@ -28,6 +28,8 @@ unzip pocketbase_0.20.0_linux_amd64.zip
 
 Visit http://127.0.0.1:8090/_/ to access the admin dashboard.
 
+💡 **Want to master the PocketBase CLI?** See the comprehensive [CLI Commands Guide](cli_commands.md) for detailed information on `serve`, `migrate`, `superuser`, and all CLI commands.
+
 ### Option 2: Docker
 
 ```bash

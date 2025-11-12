@@ -42,6 +42,7 @@ Categorize the research request:
 
 **Setup & Configuration**
 - Initial setup → `getting_started.md`
+- CLI commands → `cli_commands.md`
 - Production deployment → `going_to_production.md`
 - Data modeling → `collections.md`
 
@@ -136,6 +137,9 @@ Topic: "How to build a multi-tenant SaaS with role-based access"
 - How do I set up authentication? → `authentication.md`
 - How do I upload files? → `files_handling.md`
 - How do I add real-time updates? → `api_realtime.md`
+- How do I start the server? → `cli_commands.md` (serve command)
+- How do I run migrations? → `cli_commands.md` (migrate command)
+- How do I create admin user? → `cli_commands.md` (superuser command)
 
 ### "How to configure..." Questions
 → Focus on configuration-focused files
@@ -143,6 +147,7 @@ Topic: "How to build a multi-tenant SaaS with role-based access"
 - How to set up security rules? → `api_rules_filters.md`
 - How to create custom endpoints? → Go extension files
 - How to schedule jobs? → `api_crons.md` + `go_jobs_scheduling.md`
+- How to configure CLI flags? → `cli_commands.md` (global flags section)
 
 ### "What's the best way to..." Questions
 → Combine best practices from multiple files
@@ -157,6 +162,8 @@ Topic: "How to build a multi-tenant SaaS with role-based access"
 - Permission denied → `api_rules_filters.md` + `security_rules.md`
 - File upload fails → `files_handling.md`
 - Slow queries → `api_records.md` (Performance Tips)
+- Server won't start → `cli_commands.md` (troubleshooting section)
+- Migration errors → `cli_commands.md` (migration troubleshooting)
 
 ### "Need to implement..." Questions
 → Focus on implementation guides
@@ -164,6 +171,7 @@ Topic: "How to build a multi-tenant SaaS with role-based access"
 - File uploads? → `files_handling.md`
 - Real-time chat? → `api_realtime.md`
 - Custom logic? → Go extension files
+- Deployment automation? → `cli_commands.md` (scripting examples)
 
 ## Information Synthesis Process
 

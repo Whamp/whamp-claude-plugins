@@ -42,6 +42,7 @@ This skill provides modular, searchable documentation for PocketBase development
 | Topic | Description | When to Use |
 |-------|-------------|-------------|
 | [Getting Started](references/core/getting_started.md) | Initial setup, quick start, basic concepts | First time using PocketBase, initial configuration |
+| [CLI Commands](references/core/cli_commands.md) | PocketBase CLI, serve, migrate, admin, superuser | Development workflow, server management, migrations |
 | [Collections](references/core/collections.md) | Collection types, schema design, rules, indexes | Designing data models, creating collections |
 | [Authentication](references/core/authentication.md) | User registration, login, OAuth2, JWT tokens | Building user accounts, login systems |
 | [API Rules & Filters](references/core/api_rules_filters.md) | Security rules, filtering, sorting, query optimization | Controlling data access, writing efficient queries |
@@ -134,6 +135,7 @@ This skill is designed for efficient information retrieval. When researching Poc
 
 **Setup & Configuration**
 - Getting Started → Initial setup and basic concepts
+- CLI Commands → Development workflow, server management
 - Going to Production → Deployment and production configuration
 - Collections → Data model design
 
@@ -201,6 +203,7 @@ This skill is designed for efficient information retrieval. When researching Poc
 
 ### Common Tasks
 - [Set up PocketBase](references/core/getting_started.md#quick-setup)
+- [Master the CLI](references/core/cli_commands.md#overview)
 - [Create collection](references/core/collections.md#creating-collections)
 - [Add authentication](references/core/authentication.md#registration)
 - [Write security rules](references/core/api_rules_filters.md#common-rule-patterns)
@@ -233,6 +236,7 @@ This skill is designed for efficient information retrieval. When researching Poc
 ```
 /references/core/
 ├── getting_started.md          # Initial setup and concepts
+├── cli_commands.md             # CLI commands and server management
 ├── collections.md              # Data modeling and collections
 ├── authentication.md           # User management
 ├── api_rules_filters.md        # Security and querying
