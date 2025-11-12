@@ -1,14 +1,18 @@
 {
-"id": "Whamp/marketplace",
-"name": "Whamp/marketplace",
-"description": "A comprehensive PocketBase skill combined with a dedicated pocketbase agent to use the skill effectively.",
-"owner": {
-  "name": "Will Hampson",
-  "url": "https://github.com/Whamp"
-},
-"repository": "https://github.com/Whamp/marketplace",
-"manifestUrl": "https://raw.githubusercontent.com/Whamp/marketplace/refs/heads/master/.claude-plugin/marketplace.json",
-"tags": ["backend", "development", "sqlite", "database", "pocketbase"],
-"verified": false,
-"addedAt": "2025-11-11"
+  "name": "Whamp/marketplace",
+  "owner": {
+    "name": "Will Hampson"
+  },
+  "plugins": [
+    {
+      "name": "pocketbase",
+      "source": "./pocketbase-plugin",
+      "description": "A comprehensive PocketBase skill combined with a dedicated pocketbase agent to use the skill effectively."
+    },
+    {
+      "name": "apex2",
+      "source": "./apex2-plugin",
+      "description": "Advanced plugin for Apex development and tooling."
+    }
+  ]
 }

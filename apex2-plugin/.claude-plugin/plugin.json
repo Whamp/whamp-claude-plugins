@@ -1,0 +1,18 @@
+{
+  "name": "apex2",
+  "description": "Advanced plugin for Apex development and tooling with environment observer, skill creator, and web search capabilities",
+  "version": "0.0.1",
+  "author": {
+    "name": "Will Hampson"
+  },
+  "category": "development",
+  "tags": ["apex", "development", "environment", "skills", "web-search"],
+  "keywords": ["apex", "development-tools", "environment-observer", "skill-creator", "search"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whamp/marketplace"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Whamp/marketplace",
+  "readme": "README.md"
+}
