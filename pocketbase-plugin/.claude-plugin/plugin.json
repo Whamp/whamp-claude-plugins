@@ -10,9 +10,9 @@
   "keywords": ["pocketbase", "backend-as-a-service", "database", "rest-api", "realtime", "authentication"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/whamp/pocketbase-plugin"
+    "url": "https://github.com/Whamp/pocketbase-plugin"
   },
   "license": "MIT",
-  "homepage": "https://github.com/whamp/pocketbase-plugin",
+  "homepage": "https://github.com/Whamp/pocketbase-plugin",
   "readme": "README.md"
 }
