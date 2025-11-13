@@ -8,6 +8,11 @@
       "name": "pocketbase",
       "source": "./pocketbase-plugin",
       "description": "A comprehensive PocketBase skill combined with a dedicated pocketbase agent to use the skill effectively."
+    },
+    {
+      "name": "browser-tools",
+      "source": "./browser-tools-plugin",
+      "description": "Efficient browser automation tools using Node.js and Chrome DevTools Protocol. Start Chrome, navigate pages, execute JavaScript, capture screenshots, manage cookies, and interact with DOM elements - all without MCP overhead."
     }
   ]
 }
