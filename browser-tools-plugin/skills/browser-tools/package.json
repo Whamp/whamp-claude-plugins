@@ -1,0 +1,47 @@
+{
+  "name": "browser-tools-skill",
+  "version": "1.0.0",
+  "description": "Efficient browser automation tools using Node.js and Chrome DevTools Protocol",
+  "type": "module",
+  "main": "scripts/start.js",
+  "scripts": {
+    "start": "node ./scripts/start.js",
+    "navigate": "node ./scripts/navigate.js",
+    "eval": "node ./scripts/evaluate.js",
+    "screenshot": "node ./scripts/screenshot.js",
+    "element": "node ./scripts/element.js",
+    "cookies": "node ./scripts/cookies.js",
+    "close": "node ./scripts/close.js"
+  },
+  "bin": {
+    "browser-start": "./scripts/start.js",
+    "browser-navigate": "./scripts/navigate.js",
+    "browser-eval": "./scripts/evaluate.js",
+    "browser-screenshot": "./scripts/screenshot.js",
+    "browser-element": "./scripts/element.js",
+    "browser-cookies": "./scripts/cookies.js",
+    "browser-close": "./scripts/close.js"
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "chrome",
+    "devtools",
+    "puppeteer",
+    "web-scraping",
+    "testing"
+  ],
+  "author": "Will Hampson <will@ggl.slmail.me>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whamp/browser-tools-plugin.git"
+  },
+  "homepage": "https://github.com/Whamp/browser-tools-plugin#readme"
+}

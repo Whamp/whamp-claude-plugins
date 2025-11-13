@@ -1,0 +1,49 @@
+{
+  "name": "browser-tools",
+  "description": "Efficient browser automation tools using Node.js and Chrome DevTools Protocol. Start Chrome, navigate pages, execute JavaScript, capture screenshots, manage cookies, and interact with DOM elements - all without MCP overhead.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Will Hampson",
+    "url": "https://github.com/Whamp"
+  },
+  "contributors": [
+    {
+      "name": "Inspired by Mario Zechner",
+      "url": "https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/"
+    }
+  ],
+  "category": "browser-automation",
+  "tags": ["browser", "automation", "chrome", "devtools", "screenshot", "javascript", "puppeteer", "dom", "cookies", "testing"],
+  "keywords": ["browser automation", "chrome devtools", "puppeteer-core", "web scraping", "testing", "dom manipulation"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whamp/browser-tools-plugin"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Whamp/browser-tools-plugin",
+  "readme": "README.md",
+  "skills": [
+    {
+      "name": "browser-tools",
+      "description": "Cross-platform Chrome automation scripts with shared config and concise references",
+      "path": "skills/browser-tools"
+    }
+  ],
+  "agents": [
+    {
+      "name": "browser-tools-agent",
+      "description": "Specialized browser automation expert for complex web interactions and automation strategies",
+      "path": "agents/browser-agent.md"
+    }
+  ],
+  "dependencies": {
+    "puppeteer-core": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": ["linux", "darwin", "win32"],
+  "claude": {
+    "min_version": "2.0.0"
+  }
+}
