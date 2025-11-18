@@ -1,5 +1,5 @@
 {
-  "name": "whamp-claude-plugins",
+  "name": "whamp-claude-tools",
   "owner": {
     "name": "Will Hampson"
   },
@@ -46,7 +46,7 @@
       ]
     },
      {
-      "name": "gemini-cli",
+      "name": "gemini-cli-integration",
       "source": "./gemini-cli-plugin",
       "description": "Let claude use Gemini CLI for large context window tasks and Gemini specific strengths",
       "version": "1.0.0",
