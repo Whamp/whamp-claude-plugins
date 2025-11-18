@@ -1,0 +1,9 @@
+{
+  "name": "gemini-cli-plugin",
+  "version": "0.1.0",
+  "description": "Integration with Google Gemini CLI for large codebase analysis using massive context windows",
+  "author": {
+    "name": "Will Hampson"
+  },
+  "keywords": ["gemini", "cli", "codebase-analysis", "context-window", "google-ai"]
+}

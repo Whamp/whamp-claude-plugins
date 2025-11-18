@@ -1,5 +1,5 @@
 ---
-name: gemini-cli-plugin
+name: gemini-cli-integration
 description: Use this skill when analyzing large codebases, multiple files, or directories that exceed context limits. Leverages Google Gemini's massive context window with @ syntax for file inclusion to handle comprehensive codebase analysis, implementation verification, and architectural understanding.
 ---
 
